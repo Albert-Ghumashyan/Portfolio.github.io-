@@ -9,6 +9,14 @@
 .homeName{
     font-size: var(--biggest-font-size);
     text-align: center;
+    line-height: 65px;
+}
+
+.nameDescription {
+    font-size: 20px;
+    display: block;
+    line-height: 35px;
+    
 }
 
 .homePerfil{
@@ -59,6 +67,8 @@
 .homeLine{
     right: -2rem;
     bottom: -.5rem;
+    opacity: 0.8;
+    transform: scale(0.7);
 }
 
 .homePerfil .geometric-box{
@@ -66,6 +76,7 @@
     left: -.7rem;
     z-index: 10;
 }
+
 
 .homeSocial{
     height: 100px;
@@ -193,7 +204,7 @@
     position: relative;
     font-size: var(--h2-font-size);
     margin: 0 0 5.5rem 0;
-    padding-left: 3rem;
+    /* padding-left: 3rem; */
    }
 
    .homeInfo{
@@ -201,7 +212,7 @@
     align-self: flex-start;
    }
 
-   .homeDescription::after{
+   /* .homeDescription::after{
      content: "";
      width: 32px;
      height: 2px;
@@ -209,7 +220,7 @@
      position: absolute;
      left: 0;
      top: 14px;
-   }
+   } */
 
    .homeScroll {
      margin: 0;
@@ -240,14 +251,14 @@
 
    .homeArrow{
       top: 4.5rem;
-      left: -8rem;
+      left: -6rem;
       rotate: 80deg;
       width: 80px;
    }
 
    .homeLine{
       left: -15rem;
-      bottom: 4rem;
+      bottom: -15px;
       width: 80px;
       rotate: 30deg;
    }

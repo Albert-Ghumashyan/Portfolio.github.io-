@@ -42,7 +42,7 @@
 /*============================== Responsive typography ==============================*/
 @media screen and (min-width: 1150px) {
     :root {
-        --biggest-font-size: 4.5rem;
+        --biggest-font-size: 4rem;
         --h1-font-size: 3rem;
         --h2-font-size: 1.5rem;
         --h3-font-size: 1.25rem;
@@ -317,6 +317,14 @@ body.darkTheme{
     .container {
         margin-inline: 1rem;
     }
+
+    .showScrollUp {
+       bottom: 4rem;
+    }
+
+    .scrollUp{
+        padding: 4px;
+    }
 }
 
 /* For medium devices */
@@ -333,8 +341,10 @@ body.darkTheme{
       margin-inline: auto;
    }
 
+
+
    .section {
-     padding-block:7rem 2rem
+     padding-block:7rem 2rem;
    }
 
    .section__title-1::after,

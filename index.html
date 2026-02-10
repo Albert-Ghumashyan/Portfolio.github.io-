@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--============================ FONT-AWESOME ICON ============================-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!--============================ REMIXICON ============================-->
@@ -44,7 +45,7 @@
                        <a href="#projects" class="navLink">Projects</a>
                    </li>
                    <li class="navItem">
-                       <a href="#contact" class="navLink navLinkButton">Contact Me</a>
+                       <a href="#contact" class="navLink navLinkButton">Let’s Work Together</a>
                    </li>
                </ul>
                <!-- Close button-->
@@ -63,16 +64,16 @@
            </div>
        </nav> 
     </header>
-
     <!--==================================== Main ====================================-->
     <main class="main">
         <!--===================== HOME =====================-->
         <section class="home section" id="home">
            <div class="homeContainer container grid">
-               <h1 class="homeName">Albert</h1>
-
-               <div class="homePerfil">
-
+                <h1 class="homeName">
+                    <span class="nameDescription">Hello 👋, It’s Me</span>
+                    Albert Ghumashyan
+                </h1>
+                <div class="homePerfil">
                    <div class="homeImage">
                        <img src="img/home-perfil.jpg" alt="image" class="homeImg" >
                        <div class="homeShadow"></div>
@@ -94,12 +95,14 @@
                            </a>
                        </div>
                    </div>
-               </div>
-
-               <div class="homeInfo">
-                   <p class="homeDescription">
-                       <b>Full Stack Developer</b> with a passion for turning ideas into exceptional digital experiences. With a proven track record in crafting robust and scalable solutions, I thrive on the challenges of creating innovative web applications.
-
+                </div>
+                <div class="homeInfo">
+                    <p class="homeDescription">
+                        <b>Front-End Developer Building Modern & Responsive Websites</b><br><br>
+                        I build landing pages and business websites from Figma designs using HTML, CSS, JavaScript, and React.
+                        <br>
+                        <br>
+                        I focus on clean UI, fast performance, and fully responsive layouts that look great on all devices.
                    </p>
                    <a href="#about" class="homeScroll">
                        <div class="homeScrollBox">
@@ -107,7 +110,7 @@
                        </div>
                        <span class="homeScrollText">Scroll Down</span>
                    </a>
-               </div>
+                </div>
            </div>
         </section>
         <!--===================== ABOUT =====================-->
@@ -118,7 +121,7 @@
                 </h2>
                 <div class="aboutPerfil">
                     <div class="aboutImage"> 
-                         <img src="img/about-perfil.jpg" alt="image" class="aboutImg">
+                         <img src="img/ABOUT ME-IMAGE.jpg" alt="image" class="aboutImg">
 
                          <div class="aboutShadow"></div>
 
@@ -129,16 +132,24 @@
                 </div>
 
                 <div class="aboutInfo">
-                    <p class="aboutDescription">I'm always open to new opportunities, collaborations, and conversations. If you share a passion for technology, innovation, and creating remarkable digital experiences, let's connect! Explore my portfolio, check out my projects, and feel free to reach out for a chat or collaboration.</p>
+                    <p class="aboutDescription"> 
+                        I’m a Front-End Developer focused on building clean, responsive, and user-friendly websites.
+                        <br>
+                        <br>
+I work mainly with landing pages and business websites, turning Figma designs into high-quality HTML, CSS, and JavaScript code. I pay close attention to layout, spacing, and responsiveness to make sure the final result looks great on all devices.
+<br>
+                        <br>
+I enjoy working on modern UI, improving existing layouts, and fixing responsiveness issues. I value clear communication and always keep clients updated throughout the project.
+                    </p>
+                    
                     <ul class="aboutList">
                         <li class="aboutItem">
-                             <b>My Skills Are: </b> HTML, CSS, JavaScript, 
-                             React, Jquery, PHP, Laravel, Git & GitHub, Boostrap, Figma.
+                             <b>My Skills Are: </b> HTML, CSS, JavaScript, React, jQuery, Git & GitHub, Bootstrap, Figma
                         </li>
                     </ul>
                     <div class="aboutButtons">
                          <a href="#contact" class="button">
-                            <i class="fa-regular fa-paper-plane"></i> Contact Me
+                            <i class="fa-regular fa-paper-plane"></i>Let’s Work Together
                          </a>
                          <a href="https://www.linkedin.com/in/albert-ghumashyan-2a726023a/" target="_blank"  class="buttonGhost">
                             <i class="fa-brands fa-linkedin"></i>
@@ -160,8 +171,8 @@
                         <div class="servicesBox"></div>
                         <i class="fa-solid fa-layer-group"></i>
                       </div>
-                      <h2 class="servicesTitle">Figma</h2>
-                      <p class="servicesDescription">I am trying to make websites for Figma mockup.</p>
+                      <h2 class="servicesTitle">Figma to Responsive HTML/CSS</h2>
+                      <p class="servicesDescription">I convert Figma designs into clean, responsive HTML, CSS, and JavaScript code with pixel-perfect accuracy.</p>
                    </div>
                  </article>
                  <article class="servicesCard">
@@ -171,8 +182,19 @@
                          <div class="servicesBox"></div>
                          <i class="fa-solid fa-code"></i>
                        </div>
-                       <h2 class="servicesTitle">Programer</h2>
-                       <p class="servicesDescription">Can create websites entirely․</p>
+                       <h2 class="servicesTitle">Landing Page Developmen</h2>
+                       <p class="servicesDescription">I build fast, modern, and mobile-friendly landing pages focused on clean UI and great user experience.</p>
+                    </div>
+                 </article>
+                 <article class="servicesCard">
+                    <div class="servicesBorder"></div>
+                    <div class="servicesContent">
+                       <div class="servicesIcon">
+                         <div class="servicesBox"></div>
+                         <i class="fa-solid fa-bug"></i>
+                       </div>
+                       <h2 class="servicesTitle">Bug Fixes & Layout Fixes</h2>
+                       <p class="servicesDescription">I fix layout, responsiveness, and UI bugs in existing websites. Perfect for quick fixes, small changes, and improving user experience.</p>
                     </div>
                  </article>
              </div>
@@ -185,76 +207,80 @@
              <div class="projectsContainer container grid">
                  <article class="projectsCard">
                    <div class="projectImage">
-                       <img src="img/project-1.jpg" alt="image" class="projectImg">
+                       <img src="img/apollon-image.png" alt="image" class="projectImg">
 
                        <a href="https://albert200024.github.io/ApollonHomePage.github.io/"  target="_blank" class="projectsButton button">
                           <i class="ri-arrow-right-up-line"></i>
                        </a>
                    </div>
                    <div class="projectsContent">
-                        <h3 class="projectsSubtitle">Web site</h3>
-                        <h2 class="projectsTitle">Appolon Home page</h2>
+                        <h3 class="projectsSubtitle">Landing Page</h3>
+                        <h2 class="projectsTitle">Appolon – Responsive Corporate Landing Page   </h2>
 
                         <p class="projectsDescription">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, reprehenderit.
+                            Responsive landing page built with HTML, CSS, and JavaScript.
+                            Focused on clean layout, modern UI sections (hero, services, portfolio, testimonials), and cross-device compatibility.
                         </p>
+                        
                    </div>
                    <div class="projectsButtons">
                         <a href="https://github.com/Albert200024/ApollonHomePage.github.io" target="_blank"  class="projectsLink">
-                            <i class="ri-github-line"></i>  View
+                            <i class="ri-github-line"></i>  View Code
                         </a>                       
-                        <a href="" target="_blank"  class="projectsLink">
-                            <i class="ri-dribbble-line"></i>   View
-                        </a>
+                        <a href="https://albert200024.github.io/ApollonHomePage.github.io/" target="_blank"  class="projectsLink">
+                            <i class="ri-dribbble-line"></i>   Live Demo
+                        </a> 
                    </div>
                  </article>          
                  <article class="projectsCard">
                     <div class="projectImage">
-                        <img src="img/project-2.jpg" alt="image" class="projectImg">
+                        <img src="img/blog-image.png" alt="image" class="projectImg">
  
-                        <a href="http://comentsysytemphp.infinityfreeapp.com/" target="_blank" class="projectsButton button">
+                        <a href="https://albert-ghumashyan.github.io/Blogs-Website/" target="_blank" class="projectsButton button">
                            <i class="ri-arrow-right-up-line"></i>
                         </a>
                     </div>                    
                     <div class="projectsContent">
-                         <h3 class="projectsSubtitle">Web site</h3>
-                         <h2 class="projectsTitle">MVC-framework</h2>
+                         <h3 class="projectsSubtitle">Bug Fixing / Improvements</h3>
+                         <h2 class="projectsTitle">Blog Website – Layout & Responsiveness Fixes</h2>
  
                          <p class="projectsDescription">
-                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, reprehenderit.
+                             Improved layout structure, fixed responsiveness issues, and cleaned CSS to ensure consistent behavior across desktop, tablet, and mobile devices.
                          </p>
                     </div> 
                     <div class="projectsButtons">
-                         <a href="https://github.com/Albert200024/MVC-framework" target="_blank"  class="projectsLink">
-                             <i class="ri-github-line"></i> View
+                         <a href="https://github.com/Albert-Ghumashyan/Blogs-Website" target="_blank"  class="projectsLink">
+                             <i class="ri-github-line"></i> View Code
                          </a>
-                         <a href="" target="_blank"  class="projectsLink">
-                             <i class="ri-dribbble-line"></i>  View
+                         <a href="https://albert-ghumashyan.github.io/Blogs-Website/" target="_blank"  class="projectsLink">
+                             <i class="ri-dribbble-line"></i>  Live Demo
                          </a>
                     </div>
                  </article>
                  <article class="projectsCard">
                     <div class="projectImage">
-                        <img src="img/project-3.jpg" alt="image" class="projectImg">
+                        <img src="img/figma-image.png" alt="image" class="projectImg">
  
-                        <a href="https://albert200024.github.io/Coffe-webSite.github.io/"  target="_blank"   class="projectsButton button">
+                        <a href="https://albert-ghumashyan.github.io/figma-to-responsive.github.io/"  target="_blank"   class="projectsButton button">
                          <i class="ri-arrow-right-up-line"></i>
                         </a>
                     </div>                    
                     <div class="projectsContent">
-                         <h3 class="projectsSubtitle">Web site</h3>
-                         <h2 class="projectsTitle">Coffe house</h2>
+                         <h3 class="projectsSubtitle">Figma → Code</h3>
+                         <h2 class="projectsTitle">Figma → Responsive Website (HTML/CSS)</h2>
  
                          <p class="projectsDescription">
-                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, reprehenderit.
+                             Converted a Figma design into clean, responsive HTML and CSS.
+                             <br>
+                             Focused on accurate layout, spacing, typography, and full responsiveness across devices.
                          </p>
                     </div> 
                     <div class="projectsButtons">
-                         <a href="https://github.com/Albert200024/Coffe-webSite.github.io" target="_blank"  class="projectsLink">
-                             <i class="ri-github-line"></i> View
+                         <a href="https://github.com/Albert-Ghumashyan/figma-to-responsive.github.io" target="_blank"  class="projectsLink">
+                             <i class="ri-github-line"></i> View Code
                          </a>                
-                         <a href="" target="_blank"  class="projectsLink">
-                             <i class="ri-dribbble-line"></i> View
+                         <a href="https://albert-ghumashyan.github.io/figma-to-responsive.github.io/" target="_blank"  class="projectsLink">
+                             <i class="ri-dribbble-line"></i> Live Demo 
                          </a>
                     </div>
                  </article>
@@ -268,12 +294,18 @@
                     <h2 class="section__title-2">
                         <span>Contact Me.</span>
                     </h2>
-                    <p class="contactDescription1">Lorem ipsum dolor sit amet <b>consectetur, adipisicing elit.</b> Commodi repudiandae dignissimos repellat officia ea aliquid?</p>
-                    <p class="contactDescription2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <b>Alias</b> officiis reprehenderit rem corporis, aperiam neque.</p>
+                    <p class="contactDescription1">
+                        Looking for a reliable front-end developer?
+                        <br>
+                        Feel free to reach out — I’m open to new projects and collaborations.
+                    </p>
+                    <p class="contactDescription2">Whether you need a responsive landing page, layout fixes, or a Figma design turned into clean HTML/CSS — feel free to reach out.
+I usually reply within 24 hours.
+</p>
                 </div>
                 <div class="contactMail">
                    <h2 class="contactTitle">
-                      Send A Message
+                      Send a Message
                    </h2>
 
                    <form action="" class="contactForm" id="contactForm">
@@ -302,7 +334,7 @@
                       
                       <p class="contactMessage" id="contactMessage"></p>
                       <button type="submit" class="contactButton button">
-                        <i class="ri-send-plane-line"></i> Send Message
+                        <i class="ri-send-plane-line"></i> Let’s Work Together
                       </button>
                    </form>
                 </div>
@@ -313,10 +345,10 @@
                     <div class="contactSocialData">
                        <div>
                           <p class="contactSocialDescription1">
-                            Does not send emails
+                           The form is for design purposes.
                           </p>
                           <p class="contactSocialDescription2">
-                             Write me on my social networks
+                             You can reach me directly via my social networks:
                           </p>
                        </div>
                        <div class="contactSocialLinks">
@@ -348,10 +380,13 @@
                <li>
                   <a href="#projects" class="footerLink">Projects</a>
                </li>
+               <li>
+                  <a href="#contact" class="footerLink">Contact</a>
+               </li>
             </ul>
             <span class="footerCopy">
-              &#169; All Rights Reserved By
-                <b>Albert</b>
+              &#169; 2026 Albert Ghumashyan — 
+                <b>Front-End Developer</b>
             </span>
         </div>
     </footer>

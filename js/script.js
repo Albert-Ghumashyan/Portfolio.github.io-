@@ -26,7 +26,7 @@ $(document).ready(function () {
     const sendEmail = function (e) {
         e.preventDefault();
     
-        emailjs.sendForm("service_zigg75r", "template_77f4psa", "#contactForm", "73tJrj5bT1MJZqEOQ")
+        emailjs.sendForm("service_zn8n97h", "template_77f4psa", "#contactForm", "73tJrj5bT1MJZqEOQ")
             .then(function () {
                 contactMessage.text("Message sent successfully ✅");
     

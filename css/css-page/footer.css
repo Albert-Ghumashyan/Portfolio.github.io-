@@ -1,5 +1,6 @@
 .footer {
     background-color: var(--black-color);
+    border-top: 1px solid rgba(255,255,255,0.08);
 }
 
 .footerContainer {
@@ -29,6 +30,21 @@
 }
 
 /*============================== MEDIA ==============================*/
+@media screen and (max-width: 350px){
+    .footerLinks {
+        flex-direction: column ;
+        align-items: center;
+        justify-content: center;
+        row-gap: 0.5rem;
+    }
+
+    .footerContainer{
+        row-gap: 1.5rem;
+        padding-block: 2rem 2rem;
+        
+    }
+}
+
 @media screen and (min-width: 1150px) {
   .footerContainer {
      padding-block: 4rem;
@@ -41,3 +57,4 @@
    order: 1;
   }
 }
+
